@@ -35,15 +35,15 @@
     else
         echo "Diferente de zero!";
     echo $sub == 0 ? "Igual a zero" : "Diferente de zero!";
-    if (($soma == 0)) && ($sub == 0) || ((!$mult)) {
+    if (($soma == 0) && ($sub == 0) || (!$mult))
         echo "Exibindo mensagem!";
-    }
     $i=0;
     while($i<10){
         echo $i;
         $i++;
     }
 
-    for($i=;$<10;$i++){
+    for ($i=0; $i < 10; $i++){
         echo $i;
     }
+
